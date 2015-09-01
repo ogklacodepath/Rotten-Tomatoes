@@ -23,7 +23,7 @@ Completed user stories:
 
 
 
-![Video Walkthrough](anim_rotten_tomatoes.gif)
+![Video Walkthrough](rotten.gif)
 
 GIF created using ffmpeg
 
