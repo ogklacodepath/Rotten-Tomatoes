@@ -26,6 +26,7 @@ class MoviesDetailsViewController: UIViewController {
         titleLabel.text = self.selectedMovie!["title"] as? String
         var imageUrl = self.selectedMovie?.valueForKeyPath("posters.detailed") as! String
         var url = NSURL(string: imageUrl)!
+        descriptionLabel.textColor = UIColor.whiteColor()
         moviePosterImage.setImageWithURL(url)
     }
 
